@@ -211,13 +211,3 @@ php -v
 * Use a single `.envrc` convention per project and commit an example `.envrc.example` (don’t commit secrets).
 * Consider adding a `.php-version` plus a small `.envrc` that reads it and sets PATH automatically — easy to scale across projects.
 * For CI or production, ensure server PHP versions match expected project PHP (don’t rely on direnv there).
-
----
-
-If you want I can:
-
-* produce a one-liner to add the hook and `.envrc` safely,
-* create a small `.envrc` that automatically selects php based on a `.php-version` file,
-* or help upgrade Laravel safely if you want to support newer PHP in future.
-
-Want the one-liner to patch your `~/.zshrc` and a ready-to-use `.envrc`?
